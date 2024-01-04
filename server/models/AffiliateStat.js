@@ -11,6 +11,5 @@ const AffiliateStatSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-
 const AffiliateStat = mongoose.model("AffiliateStat", AffiliateStatSchema);
 export default AffiliateStat;
